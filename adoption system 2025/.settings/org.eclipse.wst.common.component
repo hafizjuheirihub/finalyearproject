@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="adoption system 2025">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-2.0.0 (3).jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.servlet.jsp.jstl-2.0.0 (3)/jakarta.servlet.jsp.jstl-2.0.0 (3)">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet-api-5.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.servlet-api-5.0.0/jakarta.servlet-api-5.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc11/ojdbc11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-20210307.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json-20210307/json-20210307">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.activation-2.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.activation-2.0.0/jakarta.activation-2.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.el-api-4.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.el-api-4.0.0/jakarta.el-api-4.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-api-2.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.servlet.jsp.jstl-api-2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-api-2.0.0 (1).jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.servlet.jsp.jstl-api-2.0.0 (1)/jakarta.servlet.jsp.jstl-api-2.0.0 (1)">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="postgresql-42.6.0 (1).jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/postgresql-42.6.0 (1)/postgresql-42.6.0 (1)">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.xml.bind-api-3.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.xml.bind-api-3.0.0/jakarta.xml.bind-api-3.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.5/commons-fileupload-1.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="adoption_system_2025"/>
+        <property name="java-output-path" value="/adoption system 2025/build/classes"/>
+    </wb-module>
+</project-modules>
